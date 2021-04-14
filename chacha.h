@@ -7,7 +7,7 @@
 #define CHACHA_KEY_SIZE_BYTES   32
 
 // the spec
-// https://tools.ietf.org/html/rfc7539
+// https://tools.ietf.org/html/rfc8439
 
 typedef struct chacha_state {
 	uint8_t key[32];
